@@ -19,7 +19,7 @@ specifically add the directory to your path, or use
 a symbolic link instead.
 
 
-[travis-badge]: https://img.shields.io/travis/jbradaric/cargo-sorty/master.svg?style=flat-square
+[travis-badge]: https://travis-ci.org/jbradaric/cargo-sorty.svg?branch=master
 [travis]: https://travis-ci.org/jbradaric/cargo-sorty
 [license-badge]: https://img.shields.io/badge/license-MIT-lightgray.svg?style=flat-square
 [license]: https://github.com/jbradaric/cargo-sorty/blob/master/LICENSE
