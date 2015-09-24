@@ -23,7 +23,7 @@ fn main() {
     }
 }
 
-fn wrap_args<T, I, P>(it: I, clippy_path: P) -> Vec<String>
+fn wrap_args<T, I, P>(it: I, sorty_path: P) -> Vec<String>
     where T: AsRef<str>,
           I: IntoIterator<Item=T>,
           P: AsRef<Path> {
@@ -42,9 +42,9 @@ fn wrap_args<T, I, P>(it: I, clippy_path: P) -> Vec<String>
         args.push("--".to_owned());
     }
     args.push("-L".to_owned());
-    args.push(clippy_path.as_ref().to_string_lossy().into_owned());
-    args.push("-lclippy".to_owned());
-    args.push("-Zextra-plugins=clippy".to_owned());
+    args.push(sorty_path.as_ref().to_string_lossy().into_owned());
+    args.push("-lsorty".to_owned());
+    args.push("-Zextra-plugins=sorty".to_owned());
     args.push("-Zno-trans".to_owned());
     args
 }

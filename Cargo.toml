@@ -1,12 +1,12 @@
 [package]
-name = "cargo-clippy"
+name = "cargo-sorty"
 version = "0.1.0"
-authors = [
-	"Ray Solomon <raybsolomon@gmail.com>",
-	"arcnmx"
-]
+authors = ["Ray Solomon <raybsolomon@gmail.com>",
+           "arcnmx",
+           "Jurica Bradaric <jbradaric@gmail.com"
+          ]
 license = "MIT"
 readme = "README.md"
 
-[dependencies.clippy]
-git = "https://github.com/Manishearth/rust-clippy"
+[dependencies.sorty]
+git = "https://github.com/Wafflespeanut/rust-sorty"
